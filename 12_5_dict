@@ -1,4 +1,5 @@
 # example
+# using dict, list, map , input, split, zip
 # in a b c d
 # in2 1 2 3 4
 # out 'a':1.0, 'b':2.0, 'c':3.0, 'd':4.0
