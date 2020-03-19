@@ -1,0 +1,12 @@
+# 사용자에게 선의 갯수와 선의 길이를 입력 받아 별을 그려준다.
+import turtle as t
+ 
+n, line = map(int, input().split())
+t.shape('turtle')
+t.speed('fastest')
+
+for i in range(n):
+    t.fd(line)
+    t.right((360/n) * 2)
+    t.fd(line)
+    t.left(360/n)
