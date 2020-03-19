@@ -1,0 +1,24 @@
+# 2개의 정수를 입력 받되, 첫번째 숫자보다 2번째 숫자가 무조건 크다는 조건하에
+# 5 & 7 의 배수,공배수를 출력하는 프로그램을 작성한다.
+
+num1, num2 = map(int,input().split(' '))
+
+for i in range(num1, num2+1):
+    if i % 5 == 0 and i % 7 == 0:
+        print('FizzBuzz')
+    elif i % 5 == 0:
+        print('Fizz')
+    elif i % 7 == 0:
+        print('Buzz')
+    else:
+        print(i)
+        
+# 실행 예시
+=================================== RESTART: C:\python\practice.py ===================================
+25 30
+Fizz
+26
+27
+Buzz
+29
+Fizz
